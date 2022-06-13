@@ -34,7 +34,7 @@ The most basic step for the formation of the monitoring system is to deduce a bl
 
 ## Documentation
 
-[Documentation](https://drive.google.com/file/d/1LzvdgzkQRf9Z2Vox55eYcavTrbX-6XhD/view?usp=sharing)
+[Documentation](https://drive.google.com/file/d/1H19L9ODnEtTV8QdAmLzViFYJPGylBiK1/view?usp=sharing)
 
 
 ## 🔗 Links
