@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2"
+    android:orientation="vertical">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_marginTop="30dp"
+        >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="191375"
+            android:id="@+id/ids"
+            android:textSize="30dp"
+            android:textColor="@color/black"
+            android:padding="10dp"
+           />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="right"
+            android:layout_marginStart="200dp"
+            android:gravity="right"
+            android:id="@+id/changepage"
+            android:layout_marginTop="30dp"
+            android:text="-->"
+            android:textSize="30dp" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/secondlayout"
+        android:layout_width="match_parent"
+        android:layout_height="160dp"
+        android:orientation="vertical"
+
+        >
+        <de.hdodenhof.circleimageview.CircleImageView
+            xmlns:app="http://schemas.android.com/apk/res-auto"
+            android:id="@+id/profile_image"
+            android:layout_width="115dp"
+            android:layout_gravity="center"
+            android:layout_height="115dp"
+            android:textAlignment="center"
+            android:src="@drawable/mark"
+            app:civ_border_width="2dp"
+            app:civ_border_color="#FF000000"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:text="Mark Zuckerburg"
+            android:textAlignment="center"
+            android:textSize="20dp"
+            android:textStyle="bold|italic"
+            android:id="@+id/username"
+            android:textColor="@color/black"/>
+
+
+
+
+</LinearLayout>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:elevation="0dp"
+        android:background="#fff"
+
+        >
+
+        <com.google.android.material.bottomnavigation.BottomNavigationView
+            android:layout_width="match_parent"
+
+
+            android:layout_height="wrap_content"
+            android:id="@+id/bottomnav"
+
+
+
+
+            app:menu="@menu/middle_navigation"
+            android:background="#fff"
+            android:elevation="0dp"
+
+
+
+
+
+            app:itemTextColor="#100F0F"
+
+            />
+    </RelativeLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#fff"
+            android:id="@+id/fragmentContainer"
+
+            />
+
+
+    </LinearLayout>
+
+
+
+
+</LinearLayout>
